@@ -1,0 +1,59 @@
+
+div {
+   display:flex;
+   padding-top: 40px;
+}
+
+.P2 {
+   margin-left: 80px;
+   margin-right: 250px;
+   font-size: 32px;
+   line-height: 35px;
+}
+
+.P1 {
+   margin-left: 20%;
+   font-size: 70px;
+}
+
+
+header {
+   font-size: 70px;
+}
+
+h2 {
+   margin-left: 250px;
+   font-size: 64px;
+   padding-top: 100px;
+}
+
+body{
+   font-family: 'Titillium Web', sans-serif;
+   padding-top: 150px;
+   padding-bottom: 40px;
+   background-color: #fff;
+   color: #EDA109;
+}
+
+.fixed-header {
+   width: 100%;
+   position: fixed;
+   background: #697268;
+   padding: 50px 0;
+   color: #fff;
+}
+
+.fixed-header{
+   top: 0px;
+}
+
+.container{
+   margin-left: 250px;
+   font-size: 60px
+}
+
+footer {
+   padding-top: 80px;
+   text-align: center;
+   margin-bottom: 40px;
+}
