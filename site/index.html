@@ -6,7 +6,10 @@
    <title>Xinyi Hu (huxycindy) | Assignment 3</title>
    <link href="css/reset.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
    <link href="css/style.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <body>
    <div class="fixed-header">
         <div class="container">
@@ -69,6 +72,34 @@
       <div class="P2">Is as little design as possible. Less, but better — because it concentrates on the essential aspects, and the products are not burdened with non-essentials. Back to purity, back to simplicity.</div>
    </div>
 
+   <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+
+
+
+
 <footer> &copy; Xinyi Hu Web Design 2019</footer>
-</body>
+
+
+
+
+
+
+
+
+
+
+  <script>// ===== Scroll to Top ====
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+}); </script>
+
 </html>
